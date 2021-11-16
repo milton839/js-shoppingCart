@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping-Cart</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="products">
+            <div>
+                <img src="images/apple.jpg" alt="apple">
+                <h4 class="productNames">Apple</h4>
+                <div  class = "price" data-price="10">Price: £<span class="priced">10</span></div>
+                <input type="text" placeholder="quantity">
+                <button class="button">Add to Cart</button>
+            </div>
+            <div>
+                <img src="images/banana.jpg" alt="banana">
+                <h4 class="productName">Banana</h4>
+                <div class="price" data-price="20">Price £<span class="priced">20</span></div>
+                <input type="text" placeholder="quantity">
+                <button class="button">Add to Cart</button>
+            </div>
+            <div>
+                <img src="images/cabbage.jpg" alt="cabbage">
+                <h4 class="productName">Cabbage</h4>
+                <div data-price="30">Price: £<span class="priced">30</span></div>
+                <input type="text" placeholder="quantity">
+                <button class="button">Add to Cart</button>
+            </div>
+            <div>
+                <img src="images/pineapple.jpg" alt="pineapple">
+                <h4 class="productName">Pineapple</h4>
+                <div data-price="40">Price: £<span class="priced">40</span></div>
+                <input type="text" placeholder="quantity">
+                <button class="button">Add to Cart</button>
+            </div>
+        </div>
+        <div class="table">
+            <table>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Product Price</th>
+                    <th>Product Quanity</th>
+                    <th>Total(price*Quantity)</th>
+                </tr>
+                <tr>
+                    <td>Apple</td>
+                    <td>£10</td>
+                    <td>2</td>
+                    <td>£20</td>
+                </tr> 
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+            <button id="checkOut">Checkout</button>
+            <h2>Total: £100</h2>
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+body{
+    background: steelblue;
+    margin-top: 10%;
+
+}
+
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+
+   
+}
+
+
+.products{
+    border: 5px solid black;
+    width: 500px;
+
+    
+}
+
+
+table{
+    border: 5px solid yellow;
+    width: 500px;
+}
+
+
+
+img{
+    width: 100px;
+    height: 100px;
+}
